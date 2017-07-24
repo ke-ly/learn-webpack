@@ -23,7 +23,7 @@ const config = {
             {
                 test:/\.(png|jpg|svg|gif)$/,
                 use:['file-loader']
-            },
+            },            
             {
                 test:/\.js$/,
                 exclude:/(node_modules|bower_components)/,
